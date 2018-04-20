@@ -38,25 +38,6 @@ con.connect(function(err) {
   //   con.end();
 });
 
-// inquirer
-//   .prompt([
-//     {
-//       type: "input",
-//       name: "item_Id",
-//       message: "Enter the ID number of the item you'd like to purchase.",
-//     },
-//     {
-//       type: "unput",
-//       name: "order_quantity",
-//       message: "Please enter how many you'd like to purchase.",
-//     },
-//   ])
-//   .then(function(answer) {
-//     var item = answer.item_Id;
-//     var quantity = answer.order_quantity;
-//     orderItem(item, quantity);
-//   });
-
 function orderItem(item, quantity) {
   //   con.connect(function(err) {
   //     if (err) throw err;
